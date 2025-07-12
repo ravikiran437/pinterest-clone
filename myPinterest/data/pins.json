@@ -1,0 +1,1269 @@
+[
+  {
+    "title": "Food Image 1",
+    "image_url": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 2",
+    "image_url": "https://images.unsplash.com/photo-1576047758648-6998fcc0d407?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MTAyODQ4OHx8ZW58MHx8fHx8",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 3",
+    "image_url": "https://images.unsplash.com/photo-1590915063357-4cd7e69899ca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MjZ8MTAyODQ4OHx8ZW58MHx8fHx8",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 4",
+    "image_url": "https://images.unsplash.com/photo-1625398407796-82650a8c135f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aW5kaWFuJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 5",
+    "image_url": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aW5kaWFuJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 6",
+    "image_url": "https://images.unsplash.com/photo-1694849789325-914b71ab4075?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 7",
+    "image_url": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kaWFuJTIwZm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 8",
+    "image_url": "https://images.unsplash.com/photo-1574484284002-952d92456975?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bWVhbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 9",
+    "image_url": "https://images.unsplash.com/photo-1564436872-f6d81182df12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWVhbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 10",
+    "image_url": "https://images.unsplash.com/photo-1508424757105-b6d5ad9329d0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 11",
+    "image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 12",
+    "image_url": "https://plus.unsplash.com/premium_photo-1673580742890-4af144293960?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 13",
+    "image_url": "https://plus.unsplash.com/premium_photo-1672363353881-68c8ff594e25?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 14",
+    "image_url": "https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Food Image 15",
+    "image_url": "https://images.unsplash.com/photo-1512149177596-f817c7ef5d4c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fGZvb2R8ZW58MHx8MHx8fDA%3D",
+    "category": "Food",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 1",
+    "image_url": "https://plus.unsplash.com/premium_photo-1664368832311-7fe635e32c7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsfGVufDB8fDB8fHww",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 2",
+    "image_url": "https://plus.unsplash.com/premium_photo-1719843013722-c2f4d69db940?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dHJhdmVsfGVufDB8fDB8fHww",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 3",
+    "image_url": "https://plus.unsplash.com/premium_photo-1677343210638-5d3ce6ddbf85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dHJhdmVsfGVufDB8fDB8fHww",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 4",
+    "image_url": "https://plus.unsplash.com/premium_photo-1679830513869-cd3648acb1db?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 5",
+    "image_url": "https://plus.unsplash.com/premium_photo-1664362416374-4f734db57037?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 6",
+    "image_url": "https://images.unsplash.com/photo-1568849676085-51415703900f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 7",
+    "image_url": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 8",
+    "image_url": "https://plus.unsplash.com/premium_photo-1679830513873-5f9163fcc04a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 9",
+    "image_url": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 10",
+    "image_url": "https://images.unsplash.com/photo-1499063078284-f78f7d89616a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Travel Image 11",
+    "image_url": "https://images.unsplash.com/photo-1517999349371-c43520457b23?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHRyYXZlbHxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Travel",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 1",
+    "image_url": "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNhcnN8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 2",
+    "image_url": "https://images.unsplash.com/photo-1580274455191-1c62238fa333?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cG9yc2NoZSUyMDkxMXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 3",
+    "image_url": "https://images.unsplash.com/photo-1722850312872-52ebbd041a90?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBvcnNjaGUlMjA5MTF8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 4",
+    "image_url": "https://images.unsplash.com/photo-1601278840447-9af5ac4ed157?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHBvcnNjaGUlMjA5MTF8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 5",
+    "image_url": "https://images.unsplash.com/photo-1647259471385-a1b2a2595d53?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHBvcnNjaGUlMjA5MTF8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 6",
+    "image_url": "https://images.unsplash.com/photo-1680071344263-6daa55c09728?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBvcnNjaGUlMjA5MTF8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 7",
+    "image_url": "https://images.unsplash.com/photo-1594502184342-2e12f877aa73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fHBvcnNjaGUlMjA5MTF8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 8",
+    "image_url": "https://images.unsplash.com/photo-1614162698829-831e2a7ca28c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fHBvcnNjaGUlMjA5MTF8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Cars Image 9",
+    "image_url": "https://images.unsplash.com/photo-1612593968469-d44a2e6ab5d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3Bva2V8ZW58MHx8MHx8fDA%3D",
+    "category": "Cars",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 1",
+    "image_url": "https://plus.unsplash.com/premium_photo-1673292293042-cafd9c8a3ab3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlfGVufDB8fDB8fHww",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 2",
+    "image_url": "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlfGVufDB8fDB8fHww",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 3",
+    "image_url": "https://images.unsplash.com/photo-1518495973542-4542c06a5843?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJlfGVufDB8fDB8fHww",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 4",
+    "image_url": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 5",
+    "image_url": "https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 6",
+    "image_url": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 7",
+    "image_url": "https://images.unsplash.com/photo-1530908295418-a12e326966ba?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 8",
+    "image_url": "https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 9",
+    "image_url": "https://images.unsplash.com/photo-1520716497194-0bde97ce9abe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 10",
+    "image_url": "https://plus.unsplash.com/premium_photo-1669741909413-08072ccaedde?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 11",
+    "image_url": "https://images.unsplash.com/photo-1499980762202-04245017d5bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTR8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 12",
+    "image_url": "https://images.unsplash.com/photo-1503756234508-e32369269deb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNlYXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 13",
+    "image_url": "https://images.unsplash.com/photo-1491378630646-3440efa57c3b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNlYXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Nature Image 14",
+    "image_url": "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNlYXxlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Nature",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 1",
+    "image_url": "https://plus.unsplash.com/premium_photo-1676111258345-d37b0aa20c72?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwZ29kc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 2",
+    "image_url": "https://plus.unsplash.com/premium_photo-1669863266283-557f9e170d85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwZ29kc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 3",
+    "image_url": "https://images.unsplash.com/photo-1696236884442-ff2cae874732?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aW5kaWFuJTIwZ29kc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 4",
+    "image_url": "https://plus.unsplash.com/premium_photo-1674898513939-10e6334cac31?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aW5kaWFuJTIwZ29kc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 5",
+    "image_url": "https://plus.unsplash.com/premium_photo-1691031427655-99516641f4c4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fGluZGlhbiUyMGdvZHN8ZW58MHx8MHx8fDA%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 6",
+    "image_url": "https://plus.unsplash.com/premium_photo-1678303396253-72e9f330baae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fGluZGlhbiUyMGdvZHN8ZW58MHx8MHx8fDA%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 7",
+    "image_url": "https://images.unsplash.com/photo-1735655564990-dda7b376cc4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGluZGlhbiUyMGdvZHN8ZW58MHx8MHx8fDA%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 8",
+    "image_url": "https://images.unsplash.com/photo-1695454432457-903f1dbb3684?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGluZGlhbiUyMGdvZHN8ZW58MHx8MHx8fDA%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 9",
+    "image_url": "https://images.unsplash.com/photo-1731363120274-320c92f06e3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODJ8fGluZGlhbiUyMGdvZHN8ZW58MHx8MHx8fDA%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 10",
+    "image_url": "https://images.unsplash.com/photo-1616377009507-c8111f07aced?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTl8fGluZGlhbiUyMGdvZHN8ZW58MHx8MHx8fDA%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 11",
+    "image_url": "https://images.unsplash.com/photo-1523878291631-87283277f717?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8amVzdXN8ZW58MHx8MHx8fDA%3D",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 12",
+    "image_url": "https://plus.unsplash.com/premium_photo-1680266015910-9b454373e340?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGplc3VzfGVufDB8fDB8fHww",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "God Image 13",
+    "image_url": "https://images.unsplash.com/photo-1624884252467-9e57b4b0f751?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGplc3VzfGVufDB8fDB8fHww",
+    "category": "God",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T08:51:41.616667"
+  },
+  {
+    "title": "Quotes Image 1",
+    "image_url": "https://images.unsplash.com/photo-1569229569803-69384f5efa83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHF1b3Rlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 2",
+    "image_url": "https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zcGlyYXRpb258ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 3",
+    "image_url": "https://plus.unsplash.com/premium_photo-1671599016130-7882dbff302f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aW5zcGlyYXRpb258ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 4",
+    "image_url": "https://images.unsplash.com/photo-1529310399831-ed472b81d589?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGluc3BpcmF0aW9ufGVufDB8fDB8fHww",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 5",
+    "image_url": "https://images.unsplash.com/photo-1535981767287-35259dbf7d0e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGluc3BpcmF0aW9ufGVufDB8fDB8fHww",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 6",
+    "image_url": "https://images.unsplash.com/photo-1722491713967-388b8aee8066?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG92ZSUyMHF1b3Rlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 7",
+    "image_url": "https://plus.unsplash.com/premium_photo-1685746382185-0204246bb4d2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bG92ZSUyMHF1b3Rlc3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 8",
+    "image_url": "https://images.unsplash.com/photo-1534515729281-5ddf2c470538?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxvdmUlMjBxdW90ZXN8ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 9",
+    "image_url": "https://images.unsplash.com/photo-1528716321680-815a8cdb8cbe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvdmUlMjBxdW90ZXN8ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 10",
+    "image_url": "https://images.unsplash.com/photo-1584771306698-5b60fc128cc7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGxvdmUlMjBxdW90ZXN8ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 11",
+    "image_url": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fGxvdmUlMjBxdW90ZXN8ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 12",
+    "image_url": "https://images.unsplash.com/photo-1592211951067-6c3ce19cca90?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGxvdmUlMjBxdW90ZXN8ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Quotes Image 13",
+    "image_url": "https://plus.unsplash.com/premium_photo-1673716788638-2830d1c98405?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGxvdmUlMjBxdW90ZXN8ZW58MHx8MHx8fDA%3D",
+    "category": "Quotes",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 1",
+    "image_url": "https://images.unsplash.com/photo-1652027324368-51e51464e527?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmxpZ2h0c3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 2",
+    "image_url": "https://plus.unsplash.com/premium_photo-1679758629496-a1881a92f14c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 3",
+    "image_url": "https://images.unsplash.com/photo-1633530786952-e81fa893fcca?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 4",
+    "image_url": "https://plus.unsplash.com/premium_photo-1679830513886-e09cd6dc3137?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 5",
+    "image_url": "https://plus.unsplash.com/premium_photo-1674343000769-204bb2026a8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 6",
+    "image_url": "https://plus.unsplash.com/premium_photo-1679830513873-5f9163fcc04a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 7",
+    "image_url": "https://images.unsplash.com/photo-1700062003404-5a885e5c2c79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 8",
+    "image_url": "https://images.unsplash.com/photo-1652027324964-4ec96647104b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzl8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 9",
+    "image_url": "https://plus.unsplash.com/premium_photo-1679830513880-67584d7327e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 10",
+    "image_url": "https://images.unsplash.com/photo-1658476293101-4181a2afc8f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 11",
+    "image_url": "https://images.unsplash.com/photo-1654340733423-f20ac28ae470?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 12",
+    "image_url": "https://images.unsplash.com/photo-1723137664649-3bb988fc221d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODZ8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 13",
+    "image_url": "https://images.unsplash.com/photo-1716747936903-2de320700fed?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHFhdGFyJTIwZmxpZ2h0c3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 14",
+    "image_url": "https://images.unsplash.com/photo-1579373849326-d484661bcbc0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGVtaXJhdGVzJTIwZmxpZ2h0c3xlbnwwfHwwfHx8MA%3D%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 15",
+    "image_url": "https://images.unsplash.com/photo-1563781621701-3bff605f29af?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGluZGlnbyUyMGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Flights Image 16",
+    "image_url": "https://images.unsplash.com/photo-1643196832596-0a4e24ddae10?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGluZGlnbyUyMGZsaWdodHN8ZW58MHx8MHx8fDA%3D",
+    "category": "Flights",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T09:00:12.516667"
+  },
+  {
+    "title": "Interior Design Image 1",
+    "image_url": "https://images.unsplash.com/photo-1751908934325-5be793566bcc?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 2",
+    "image_url": "https://images.unsplash.com/photo-1748875343539-9e1099eb3557?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 3",
+    "image_url": "https://images.unsplash.com/photo-1738269504472-b700caf91e64?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 4",
+    "image_url": "https://images.unsplash.com/photo-1750045662226-e7d7bf61b87b?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 5",
+    "image_url": "https://images.unsplash.com/photo-1748940149370-6c298e876eb6?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 6",
+    "image_url": "https://images.unsplash.com/photo-1589834390005-5d4fb9bf3d32?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 7",
+    "image_url": "https://plus.unsplash.com/premium_photo-1746517836352-19897cb84a05?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 8",
+    "image_url": "https://images.unsplash.com/photo-1746344331056-68fa7f2c53ca?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 9",
+    "image_url": "https://images.unsplash.com/photo-1737103515460-7c5f2751bb77?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Interior Design Image 10",
+    "image_url": "https://images.unsplash.com/photo-1712878696627-fd59c375dbb1?w=500&auto=format&fit=crop&q=60",
+    "category": "Interior Design",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 1",
+    "image_url": "https://images.unsplash.com/photo-1692985300056-a021e5a5386d?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 2",
+    "image_url": "https://images.unsplash.com/photo-1723394212824-a59ce1e2f09a?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 3",
+    "image_url": "https://images.unsplash.com/photo-1650046268622-1fb2f6e47120?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 4",
+    "image_url": "https://images.unsplash.com/photo-1722326836324-a04ef7517901?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 5",
+    "image_url": "https://images.unsplash.com/photo-1565787154274-c8d076ad34e7?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 6",
+    "image_url": "https://plus.unsplash.com/premium_photo-1721963697075-b79e3f7c82e5?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 7",
+    "image_url": "https://images.unsplash.com/photo-1624897174291-1bd715e371d5?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 8",
+    "image_url": "https://images.unsplash.com/photo-1709233955671-916205d8d926?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 9",
+    "image_url": "https://images.unsplash.com/photo-1709134801121-edb7bda74677?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 10",
+    "image_url": "https://images.unsplash.com/photo-1743343179111-c76040fd2b50?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 11",
+    "image_url": "https://plus.unsplash.com/premium_photo-1721963697334-085876a0d206?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 12",
+    "image_url": "https://images.unsplash.com/photo-1610450294178-f1e30562db21?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Cricket Image 13",
+    "image_url": "https://images.unsplash.com/photo-1565787113569-be8aa6f5da41?w=500&auto=format&fit=crop&q=60",
+    "category": "Cricket",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 1",
+    "image_url": "https://plus.unsplash.com/premium_photo-1666278379770-440439b08656?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 2",
+    "image_url": "https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 3",
+    "image_url": "https://plus.unsplash.com/premium_photo-1669725687221-6fe12c2da6b1?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 4",
+    "image_url": "https://images.unsplash.com/photo-1591824438708-ce405f36ba3d?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 5",
+    "image_url": "https://images.unsplash.com/photo-1484406566174-9da000fda645?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 6",
+    "image_url": "https://plus.unsplash.com/premium_photo-1669725687150-15c603ac6a73?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 7",
+    "image_url": "https://images.unsplash.com/photo-1574068468668-a05a11f871da?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 8",
+    "image_url": "https://images.unsplash.com/photo-1519664824562-b4bc73f9795a?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 9",
+    "image_url": "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 10",
+    "image_url": "https://images.unsplash.com/photo-1585110396000-c9ffd4e4b308?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 11",
+    "image_url": "https://images.unsplash.com/photo-1536514900905-0d5511b9d489?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 12",
+    "image_url": "https://images.unsplash.com/photo-1587213128862-80345e23a71a?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 13",
+    "image_url": "https://images.unsplash.com/photo-1554490828-442467b562dd?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 14",
+    "image_url": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 15",
+    "image_url": "https://plus.unsplash.com/premium_photo-1687773505806-468b916d0962?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 16",
+    "image_url": "https://images.unsplash.com/photo-1570527140771-020891229bb4?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 17",
+    "image_url": "https://images.unsplash.com/photo-1511617789198-7618974100b4?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 18",
+    "image_url": "https://images.unsplash.com/photo-1583499871880-de841d1ace2a?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 19",
+    "image_url": "https://images.unsplash.com/photo-1534832847687-ed24b3a9d3ee?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Animal Image 20",
+    "image_url": "https://plus.unsplash.com/premium_photo-1667760701811-e61a571c021e?w=500&auto=format&fit=crop&q=60",
+    "category": "Animals",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 1",
+    "image_url": "https://plus.unsplash.com/premium_photo-1661587329310-dff2888a7e6d?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 2",
+    "image_url": "https://images.unsplash.com/photo-1558487661-9d4f01e2ad64?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 3",
+    "image_url": "https://images.unsplash.com/photo-1527082395-e939b847da0d?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 4",
+    "image_url": "https://images.unsplash.com/photo-1568339434343-2a640a1a9946?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 5",
+    "image_url": "https://images.unsplash.com/photo-1560869713-7d0a29430803?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 6",
+    "image_url": "https://images.unsplash.com/photo-1713548902214-bd930728bd89?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 7",
+    "image_url": "https://images.unsplash.com/photo-1654097800369-abc063d657c4?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 8",
+    "image_url": "https://images.unsplash.com/photo-1549236177-ca2f08365400?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 9",
+    "image_url": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 10",
+    "image_url": "https://images.unsplash.com/photo-1605497787865-e6d4762b386f?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 11",
+    "image_url": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Hair Style 12",
+    "image_url": "https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?w=500&auto=format&fit=crop&q=60",
+    "category": "Hair Styles",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 1",
+    "image_url": "https://images.unsplash.com/photo-1588175768004-4e8a770cc099?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 2",
+    "image_url": "https://images.unsplash.com/photo-1666975897529-e93c0edbeaae?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 3",
+    "image_url": "https://images.unsplash.com/photo-1627615951531-cfe7c4628dca?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 4",
+    "image_url": "https://images.unsplash.com/photo-1722440044170-8df784901428?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 5",
+    "image_url": "https://images.unsplash.com/photo-1743757452117-936ea69be6af?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 6",
+    "image_url": "https://images.unsplash.com/photo-1743750176709-b46a3b10fdf6?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 7",
+    "image_url": "https://images.unsplash.com/photo-1609351231656-9285d74d363d?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 8",
+    "image_url": "https://images.unsplash.com/photo-1665115237228-a54d2de1e7bf?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 9",
+    "image_url": "https://images.unsplash.com/photo-1641279762487-33beaaf68775?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 10",
+    "image_url": "https://images.unsplash.com/photo-1730130596425-197566414dc4?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 11",
+    "image_url": "https://plus.unsplash.com/premium_photo-1669977749936-1343d0b0b4d9?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 12",
+    "image_url": "https://plus.unsplash.com/premium_photo-1729038877065-3468bead921f?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 13",
+    "image_url": "https://images.unsplash.com/photo-1605366721580-d69cc94b5b9c?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 14",
+    "image_url": "https://plus.unsplash.com/premium_photo-1720798648593-d47ef30eb141?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 15",
+    "image_url": "https://images.unsplash.com/photo-1567530331069-630c6a3926f3?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Tradition Image 16",
+    "image_url": "https://images.unsplash.com/photo-1647949940712-bfcf82015d9b?w=500&auto=format&fit=crop&q=60",
+    "category": "Tradition",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 1",
+    "image_url": "https://images.unsplash.com/photo-1576542260349-626bf55262a8?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 2",
+    "image_url": "https://images.unsplash.com/photo-1594507401263-b2d02b358a1c?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 3",
+    "image_url": "https://images.unsplash.com/photo-1660492039984-0de3b0d6a1e6?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 4",
+    "image_url": "https://images.unsplash.com/photo-1728871789921-c935147c7656?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 5",
+    "image_url": "https://plus.unsplash.com/premium_photo-1724754604549-f48d1caab92a?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 6",
+    "image_url": "https://images.unsplash.com/photo-1600617547873-90e10ac0d6f8?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 7",
+    "image_url": "https://images.unsplash.com/photo-1728871789150-bfdd80dad395?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 8",
+    "image_url": "https://images.unsplash.com/photo-1715649954217-7a6e43d70e0e?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 9",
+    "image_url": "https://images.unsplash.com/photo-1724259622317-1ef9dafc7017?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 10",
+    "image_url": "https://plus.unsplash.com/premium_photo-1701197631446-eef29c1d2c01?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 11",
+    "image_url": "https://images.unsplash.com/photo-1549923015-22d03fbac451?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 12",
+    "image_url": "https://images.unsplash.com/photo-1686896491979-fc66c1d1f1c9?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 13",
+    "image_url": "https://images.unsplash.com/photo-1728808445616-17bd940b2d40?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 14",
+    "image_url": "https://images.unsplash.com/photo-1665880751167-9c4996d6f4b5?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 15",
+    "image_url": "https://plus.unsplash.com/premium_photo-1694475109634-8211f51c987b?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 16",
+    "image_url": "https://plus.unsplash.com/premium_photo-1694475312678-a17437e723b5?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 17",
+    "image_url": "https://images.unsplash.com/photo-1663918455395-49146be36cbb?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 18",
+    "image_url": "https://images.unsplash.com/photo-1709260295527-611319fb212c?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  },
+  {
+    "title": "Famous Place 19",
+    "image_url": "https://images.unsplash.com/photo-1701813937501-142771fa5dca?w=500&auto=format&fit=crop&q=60",
+    "category": "Famous",
+    "uploaded_by_id": 1,
+    "created_at": "2025-07-11T00:00:00"
+  }
+]

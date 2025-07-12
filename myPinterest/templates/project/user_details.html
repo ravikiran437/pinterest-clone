@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>User-Details Page</title>
+
+    <link rel="stylesheet" href="{% static 'css/user_details.css' %}?v=4" />
+  </head>
+  <body>
+    <div class="side">
+      <div class="icons">
+        <div class="logo"></div>
+        <a href = "{% url 'home' %}"><i class="fa-solid fa-house" id="home"></i></a>
+        <i class="fa-solid fa-location-arrow" id="explore"></i>
+        <i class="fa-solid fa-square-plus" id="create"></i>
+        <i class="fa-solid fa-bell" id="bell"></i>
+        <i class="fa-solid fa-message" id="msg"></i>
+      </div>
+    </div>
+    <div class="main">
+        <div class="search">
+          <input type="text" class="input" placeholder="Search for ideas" />
+          {% comment %}
+          <div class="letter">R</div>
+          {% endcomment %}
+          <a href="{% url 'logout' %}"><button id="logout">Logout</button></a>
+        </div>
+    </div>
+    <div class="main2">
+      <div class="left-div">
+        <h1>Your saved ideas</h1>
+        <p>Pins</p>
+
+      </div>
+      <div class="right-div"></div>
+    </div>
+    <div class="down">
+
+    </div>
+    <script>
+      const DownDiv = document.querySelector('.down');
+
+    for (let i = 0; i < 15; i++) {
+      const part = document.createElement('div');
+      part.classList.add('down-box');
+      part.style.backgroundImage = `url('https://picsum.photos/1080/720?random=${
+        i + 1
+      }')`;
+      DownDiv.appendChild(part);
+    }
+    </script>
+  </body>
+</html>

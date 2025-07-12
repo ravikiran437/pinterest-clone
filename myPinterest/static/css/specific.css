@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .side {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 5.2rem;
+    z-index: 10;
+    border-right: 1px solid rgb(185, 178, 178);
+  }
+  .icons {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .main {
+    margin-left: 5.2rem;
+  }
+  
+  .search {
+    position: fixed;
+    top: 0;
+    left: 5.2rem;
+    height: 4.5rem;
+    width: calc(100% - 5.2rem);
+    z-index: 9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.2rem;
+    margin-left: 1rem;
+    background-color: white;
+  }
+
+  .input {
+    height: 20%;
+    width: 90%;
+    border: none;
+    background-color: rgb(232, 226, 226);
+    border-radius: 0.8rem;
+    color: black;
+    font-size: larger;
+    padding: 1rem;
+  }
+
+  #home {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  #create {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  #explore {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  #bell {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  #msg {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  .logo {
+    background-image: url('../images/logo_copy.webp');
+    height: 3rem;
+    width: 3rem;
+    background-size: cover;
+    cursor: pointer;
+    background-position: center;
+  }
+  #logout{
+    margin-top: 1rem;
+    height: 2.8rem;
+    width: 100%;
+    background-color: red;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+  }
+  #logout:hover{
+    background-color: rgb(128, 22, 22);
+  }
+  .search a{
+    display: flex;
+    width: 5.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.8rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+  }
+  
+
+.pics {
+    margin-top: 4.5rem;
+    padding: 0.5rem;
+    min-height: calc(100vh - 5.5rem);
+    gap: 0.8rem;
+    row-gap: 2rem;
+    margin-left: 0.5rem;
+
+    display :grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .specific{
+    min-height: 100%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .right{
+    height: 100%;
+    width: 98%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 0.5rem;
+    gap: 0.8rem;
+    row-gap: 1.5rem;
+  }
+  .down{
+    margin-top: 1.5rem;
+    padding: 0.5rem;
+    min-height: 47vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.8rem;
+    row-gap: 2rem;
+    margin-left: 5.7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .image-box {
+    width: 16.5rem;
+    height: 26rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.8rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .down-box{
+    height: 27rem;
+    width: 16.5rem;
+    border-radius: 0.8rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .image-box:hover {
+    filter: blur(0.2px) brightness(0.7);
+    transform: scale(1.02);
+  }
+  .down-box:hover {
+    filter: blur(0.2px) brightness(0.7);
+    transform: scale(1.02);
+  }
+
+
+  .inner{
+    min-height: 98%;
+    width: 91%;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 1.3rem;
+    border:1px solid rgb(170, 166, 166);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .head{
+    height: 4rem;
+    width: 100%;
+ 
+    display: flex;
+    justify-content: space-between;
+  }
+  .leftside{
+    height: 100%;
+    width: 35%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+  }
+  .rightside{
+    height: 100%;
+    width: 25%;
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  #save{
+    background-color: red;
+    color: white;
+    height: 70%;
+    width: 35%;
+    border-radius: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-right: 0.8rem;
+  }
+#save:hover{
+  background-color: rgb(133, 19, 19);
+}
+#heart{
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+#msg{
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+#download{
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+#more-action{
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.pic{
+  height: 80vh;
+  width: 57%;
+  background-image: url("https://plus.unsplash.com/premium_photo-1679830513886-e09cd6dc3137?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGZsaWdodHN8ZW58MHx8MHx8fDA%3D");
+  border-radius: 1.2rem;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#love-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#heart {
+  padding: 6px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.bg-red {
+  background-color: red;
+  color: white; 
+}
+@media (max-width: 768px) {
+  .side {
+    
+    height: 7.5rem;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+  margin-top: 93.3vh;
+  }
+  .main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+  .inner{
+    width: 100%;
+    height: 92vh;
+    margin-top: 0;
+  }
+  .pics{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+
+  }
+  .right{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .image-box{
+    height: 25rem;
+    width: 12rem;
+  }
+  .down{
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+  }
+  .specific{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    margin-left: 0rem;
+    min-height: 94vh;
+  }
+  .pic{
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+  }
+  #logout{
+    display: none;
+  }
+  .search{
+    display: none;
+  }
+  .down-box{
+    height: 25rem;
+    width: 12rem;
+  }
+  .leftside{
+    width: 45%;
+  }
+  .rightside{
+    width: 45%;
+  }
+}

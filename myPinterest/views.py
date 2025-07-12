@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-
+from myPinterest.models import Pin
 
 def signin_view(request):
     if request.method == "POST":
@@ -52,4 +52,19 @@ def logout_view(request):
 
 @login_required(login_url='signin')
 def home_view(request):
-    return render(request, 'project/home.html')
+    pins = Pin.objects.order_by('?')
+    return render(request, 'project/home.html', {'pins': pins})
+
+
+@login_required(login_url='signin')
+def specific_view(request,pin_id):
+    pin = Pin.objects.get(id=pin_id)
+    related_pins = Pin.objects.filter(category=pin.category).exclude(id=pin.id).order_by("?")
+   
+    return render(request, 'project/single.html', {
+        'pin': pin,
+        'related_pins': related_pins
+    })
+
+def user_view(request):
+    return render(request,'project/user_details.html')

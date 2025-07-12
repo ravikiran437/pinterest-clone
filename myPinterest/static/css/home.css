@@ -116,7 +116,7 @@ body {
   cursor: pointer;
   background-position: center;
 }
-#logout{
+#logout {
   margin-top: 1rem;
   height: 2.8rem;
   width: 100%;
@@ -128,10 +128,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
 }
-#logout:hover{
+#logout:hover {
   background-color: rgb(128, 22, 22);
 }
-.search a{
+.search a {
   display: flex;
   width: 5.5rem;
   justify-content: center;
@@ -165,5 +165,40 @@ body {
   to {
     opacity: 0;
     transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .side {
+    height: 7.5rem;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+  margin-top: 93.3vh;
+  }
+  .pics{
+    margin-top: 0.2rem;
+    margin-left: 0rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main{
+    margin-left: 0rem;
+    margin-top: 0.2rem;
+  }
+  .box{
+    height: 25rem;
+    width: 12rem;
+  }
+  .icons{
+    display: flex;
+    flex-direction: row;
+  }
+  #logout{
+    display: none;
+  }
+  .search{
+    display: none;
   }
 }
