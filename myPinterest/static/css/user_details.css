@@ -104,7 +104,7 @@ body {
   }
 .main2{
     height: 18vh;
-    width: 90%;
+    width: 95%;
     margin-top: 5rem;
     margin-left: 5.5rem;
     display: flex;
@@ -124,10 +124,68 @@ body {
 }
 .right-div{
     height: 95%;
-    width: 20%;
+    width: 25%;
     /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    
 }
-
+.circle{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.letter {
+  height: 55%;
+  width: 3.5rem;
+  background-color: rgb(76, 113, 70);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;  
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#user{
+  height: 60%;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  
+}
+.content{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content h3{
+  align-self: flex-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-left: 0.4rem;
+  
+}
+.content p{
+  width: 10rem;
+  margin-top: 0.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.follow{
+  height: 5rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
 .left-div h1{
     font-size: 2.2rem;
     font-family: Arial, Helvetica, sans-serif;
@@ -137,15 +195,12 @@ body {
     border-bottom: 2px solid black;
     font-size: 1.1rem;
 }
-.down{
-    min-height: 20vh;
-    width: 94%;
-    margin-top: 5rem;
-    margin-left: 6.7rem;
-    display: grid;
-    grid-template-columns: repeat(9,1fr);
-    column-gap: 0.5rem;
-    row-gap: 1.2rem;
+.down {
+  min-height: 20vh;
+  width: 94%;
+  margin-top: 2.5rem;
+  margin-left: 6.7rem;
+  display: flex; 
 }
 .down-box{
     height: 17rem;
@@ -155,9 +210,47 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 .down-box:hover{
     filter: blur(0.2px) brightness(0.7);
     transform: scale(1.02);
     
+}
+.nopins{
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#created{
+  background-color: rgba(248, 8, 8, 0.698); 
+  border-radius: 1rem;
+  border: none;
+  color: white;
+  height: 2.6rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  
+}
+#created:hover{
+  background-color: rgb(153, 41, 41);
+  
+}
+
+.created{
+  display: flex;
+  height: 5rem;
+  width: 17rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.pin-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  column-gap: 0.5rem;
+  row-gap: 1.2rem;
+  width: 100%;
 }

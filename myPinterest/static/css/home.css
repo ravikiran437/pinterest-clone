@@ -50,6 +50,7 @@ body {
   margin-left: 0.5rem;
 }
 
+
 .box {
   height: 27rem;
   width: 14rem;
@@ -65,8 +66,8 @@ body {
 }
 
 .input {
-  height: 20%;
-  width: 90%;
+  height: 3rem;
+  width: 93%;
   border: none;
   background-color: rgb(232, 226, 226);
   border-radius: 0.8rem;
@@ -75,16 +76,23 @@ body {
   padding: 1rem;
 }
 .letter {
-  height: 50%;
-  width: 2.5rem;
+  height: 75%;
+  width: 3rem;
   background-color: rgb(76, 113, 70);
   border-radius: 50%;
-  margin-left: 0.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
   color: white;
+}
+#user{
+  height: 100%;
+  width: 5%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #home {
@@ -141,6 +149,91 @@ body {
   text-decoration: none;
 }
 
+/* for create post */
+.create-main{
+  height: 65vh;
+  width: 50%;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 1rem;
+  margin-left: 23rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create-header{
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.create-pin{
+  background-color: red;
+  color:white;
+  border-radius: 1rem;
+  border: none;
+  width: 7rem;
+  margin-top: 4rem;
+  height: 2.5rem;
+  padding: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.create-pin:hover{
+  background-color: rgb(130, 24, 24);
+}
+#create-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#url{
+  width: 35rem;
+  border-radius: 1.5rem;
+  border: 2px solid gainsboro;
+  height: 3rem;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+#url:focus{
+  outline-color: blue;
+}
+.flash-msg{
+  height: 6vh;
+  width: 50%;
+  margin-top: 5rem;
+  margin-left: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flash-msg h5{
+  color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .custom-alert {
   background-color: #d1e7dd; /* success color by default */
   color: #0f5132;
@@ -176,29 +269,29 @@ body {
     position: fixed;
     bottom: 0;
     z-index: 999;
-  margin-top: 93.3vh;
+    margin-top: 93.3vh;
   }
-  .pics{
+  .pics {
     margin-top: 0.2rem;
     margin-left: 0rem;
     grid-template-columns: repeat(2, 1fr);
   }
-  .main{
+  .main {
     margin-left: 0rem;
     margin-top: 0.2rem;
   }
-  .box{
+  .box {
     height: 25rem;
     width: 12rem;
   }
-  .icons{
+  .icons {
     display: flex;
     flex-direction: row;
   }
-  #logout{
+  #logout {
     display: none;
   }
-  .search{
+  .search {
     display: none;
   }
 }

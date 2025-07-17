@@ -11,7 +11,7 @@
     />
     <title>User-Details Page</title>
 
-    <link rel="stylesheet" href="{% static 'css/user_details.css' %}?v=4" />
+    <link rel="stylesheet" href="{% static 'css/user_details.css' %}?v=14" />
   </head>
   <body>
     <div class="side">
@@ -27,34 +27,88 @@
     <div class="main">
         <div class="search">
           <input type="text" class="input" placeholder="Search for ideas" />
-          {% comment %}
-          <div class="letter">R</div>
-          {% endcomment %}
           <a href="{% url 'logout' %}"><button id="logout">Logout</button></a>
         </div>
     </div>
     <div class="main2">
       <div class="left-div">
         <h1>Your saved ideas</h1>
-        <p>Pins</p>
+        <div class="created">
+
+          <p>Pins</p>
+          <button id="created">Show Created Pins</button>
+        </div>
 
       </div>
-      <div class="right-div"></div>
+      <div class="right-div">
+        <div class="circle">
+          <a id='user'><div class="letter">{{ letter }}</div></a>
+        </div>
+        <div class="content">
+            <h3>{{ email }}</h3>
+            <div class="follow">
+              <p>0 Following</p>
+              
+            </div>
+        </div>
+        
+      </div>
     </div>
     <div class="down">
-
+  
+      <div id="saved-pins" class="pin-grid">
+        {% if saved_pins %}
+          {% for pin in saved_pins %}
+            <a href="{% url 'specific' pin.id %}">
+              <div class="down-box" style="background-image: url('{{ pin.image_url }}');"></div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <p class="nopins">No saved pins yet.</p>
+        {% endif %}
+      </div>
+    
+    
+      <div id="created-pins" class="pin-grid" style="display: none;">
+        {% if created_pins %}
+          {% for pin in created_pins %}
+            <a href="{% url 'specific' pin.id %}">
+              <div class="down-box" style="background-image: url('{{ pin.image_url }}');"></div>
+            </a>
+          {% endfor %}
+        {% else %}
+          <p class="nopins">No created pins yet.</p>
+        {% endif %}
+      </div>
     </div>
-    <script>
-      const DownDiv = document.querySelector('.down');
 
-    for (let i = 0; i < 15; i++) {
-      const part = document.createElement('div');
-      part.classList.add('down-box');
-      part.style.backgroundImage = `url('https://picsum.photos/1080/720?random=${
-        i + 1
-      }')`;
-      DownDiv.appendChild(part);
-    }
+    <script>
+      const toggleBtn = document.getElementById("created");
+      const savedPins = document.getElementById("saved-pins");
+      const createdPins = document.getElementById("created-pins");
+    
+      let showingCreated = false;
+    
+      toggleBtn.addEventListener("click", function () {
+        if (!showingCreated) {
+          savedPins.style.display = "none";
+          createdPins.style.display = "grid"; 
+          toggleBtn.textContent = "Show Saved Pins";
+          toggleBtn.style.backgroundColor = "green";
+          toggleBtn.style.color = "white";
+
+        } else {
+          savedPins.style.display = "grid";
+          createdPins.style.display = "none";
+          toggleBtn.textContent = "Show Created Pins";
+          toggleBtn.style.backgroundColor = "";
+          toggleBtn.style.color = "";
+
+        }
+        showingCreated = !showingCreated;
+      });
     </script>
+    
+   
   </body>
 </html>

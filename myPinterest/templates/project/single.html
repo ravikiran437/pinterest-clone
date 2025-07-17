@@ -11,7 +11,7 @@
     />
     <title>specific Page</title>
 
-    <link rel="stylesheet" href="{% static 'css/specific.css' %}?v=5" />
+    <link rel="stylesheet" href="{% static 'css/specific.css' %}?v=16" />
   </head>
   <body>
     <div class="side">
@@ -29,31 +29,68 @@
     <div class="main">
       <div class="search">
         <input type="text" class="input" placeholder="Search for ideas" />
-        {% comment %}
-        <div class="letter">R</div>
-        {% endcomment %}
-        <a href="{% url 'logout' %}"><button id="logout">Logout</button></a>
+        <a id='user' href="{% url 'user-details' %}"><div class="letter">{{ letter }}</div></a>
       </div>
       <div class="pics">
         <div class="specific">
           <div class="inner">
             <div class="head">
               <div class="leftside">
-                <button id="love-button">
-                  <i class="fa-regular fa-heart" id="heart"></i>
+              <form action="{% url 'like' pin.id %}" method="POST" id="like-button">
+                {% csrf_token %}
+                <button type="submit" style="background:none;border:none; cursor: pointer;">
+                  {% if user_liked %}
+                    <i class="fa-solid fa-heart" style="color:red; font-size:24px; "></i>
+                  {% else %}
+                    <i class="fa-regular fa-heart" style="color:red; font-size:24px;"></i>
+                  {% endif %}
                 </button>
-                <i class="fa-regular fa-message" id="msg"></i>
-                <i class="fa-solid fa-download" id="download"></i>
-                <i class="fa-solid fa-ellipsis" id="more-action"></i>
+                <h3>{{ likes }}</h3>
+              </form>
+
+                <i class="fa-regular fa-message" id="msg-scroll"></i>
+                <a href="{% url 'download_pin' %}?url={{ pin.image_url }}" style="color:black">
+                  <i class="fa-solid fa-download" id="download" style="cursor: pointer;"></i>
+                </a>
               </div>
               <div class="rightside">
-                <button id="save">Save</button>
+                <form action="{% url 'toggle_save' pin.id %}" method="post" class="saveform">
+                  {% csrf_token %}
+                  <button type="submit" id="save" class="notranslate">
+                    {% if pin.id in saved_pin_ids %}
+                      Unsave
+                    {% else %}
+                      Save
+                    {% endif %}
+                  </button>
+                </form>
               </div>
             </div>
             <div
               class="pic"
               style="background-image: url('{{ pin.image_url }}');"
             ></div>
+            <div class="comments">
+              <p>{{ comment_count }} Comment{{ comment_count|pluralize }}</p>
+            
+              {% for comment in comments %}
+                <div class="comment">
+                  <div class="circle">{{  comment.user.username|first|upper}}</div><h4>{{ comment.user.username }} </h4> <p>{{ comment.text }}</p>
+                </div>
+              {% endfor %}
+            </div>
+
+            <form method="POST" action="{% url 'comments_views' pin.id %}" id="send-form" >
+              {% csrf_token %}
+              <div class="msg">
+                <input type="text" name="comment" placeholder="Add a Comment" required>
+                <div class="send">
+                  <button type="submit" style="background: none; border: none;">
+                    <i class="fa-regular fa-paper-plane" id="send-btn"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
         <div class="right">
@@ -80,11 +117,14 @@
     </div>
   </body>
   <script>
-    const heartIcon = document.getElementById('heart');
-
-    heartIcon.addEventListener('click', (e) => {
-      e.stopPropagation();
-      heartIcon.classList.toggle('bg-red');
+    document.addEventListener("DOMContentLoaded", function () {
+      const msgBtn = document.getElementById("msg-scroll");
+      msgBtn.addEventListener("click", function () {
+        window.scrollTo({
+          top: window.innerHeight * 0.6,
+          behavior: "smooth"
+        });
+      });
     });
   </script>
 </html>

@@ -22,6 +22,11 @@ header{
     align-items: center;
    
 }
+.center{
+    height: 3.5rem;
+    width: 20rem;
+    
+}
 
 .img{
     height: 3rem;
@@ -245,7 +250,7 @@ form p:nth-of-type(2) {
     background-color: rgb(198, 30, 30);
 }
 .custom-alert {
-    background-color: #d1e7dd; /* success color by default */
+    background-color: #d1e7dd; 
     color: #0f5132;
     border: 1px solid #badbcc;
     border-radius: 5px;
@@ -269,6 +274,20 @@ form p:nth-of-type(2) {
       opacity: 0;
       transform: translateY(-10px);
     }
+  }
+  .loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
   }
   
   @media (max-width: 768px) {

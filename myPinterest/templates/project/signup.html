@@ -50,9 +50,9 @@
               <form method="post" action="" id="form">
                 {% csrf_token %}
                 <p>Email</p>
-                <input type="email" placeholder="Email" name="email"/>
+                <input type="email" placeholder="Email" name="email" required/>
                 <p>Password</p>
-                <input type="password" placeholder="Create Password" name="password"/>
+                <input type="password" placeholder="Create Password" name="password" required  minlength="6"/>
                 <br />
                 <button id="loginbutton">Continue</button>
                 <div class="signup">
