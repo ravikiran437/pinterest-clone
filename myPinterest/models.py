@@ -33,3 +33,12 @@ class Comments(models.Model):
     pin = models.ForeignKey(
         Pin, on_delete=models.CASCADE, related_name='comments')
     text = models.TextField()
+
+
+class Following(models.Model):
+    follower = models.ForeignKey(User, on_delete=models.CASCADE, related_name='following_set')
+    following = models.ForeignKey(User, on_delete=models.CASCADE, related_name='followers_set')
+    followed_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('follower', 'following')

@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from myPinterest.models import Pin, SavedPin,Likes,Comments
+from myPinterest.models import Pin, SavedPin,Likes,Comments,Following
 
 
 def signin_view(request):
@@ -56,7 +56,8 @@ def logout_view(request):
 
 @login_required(login_url='signin')
 def home_view(request):
-    pins = Pin.objects.order_by('?')
+    uploader = User.objects.get(email='ravikiran123223@gmail.com')
+    pins = Pin.objects.filter(uploaded_by=uploader).order_by('?')
     username = request.user.username if request.user.is_authenticated else None
     first_letter = username[0].upper()
     return render(request, 'project/home.html', {'pins': pins, 'letter': first_letter})
@@ -99,10 +100,13 @@ def user_view(request):
     saved_pins = SavedPin.objects.filter(user=request.user).order_by('-id')
     pins = [saved.pin for saved in saved_pins]
     created_pins = Pin.objects.filter(uploaded_by=user).order_by('-created_at')
+
+    following_count = user.following_set.count()
     return render(request, 'project/user_details.html', {'letter': first_letter,
                                                          'email': email,
                                                          'saved_pins': pins,
-                                                         'created_pins': created_pins})
+                                                         'created_pins': created_pins,
+                                                         'following_count': following_count, })
 
 
 @login_required(login_url="signin")
@@ -193,8 +197,23 @@ def download_pin(request):
     parsed_url = urlparse(image_url)
     filename = os.path.basename(parsed_url.path)
 
-    
     download_response = HttpResponse(
         response.content, content_type=response.headers['Content-Type'])
     download_response['Content-Disposition'] = f'attachment; filename="{filename}"'
     return download_response
+
+
+@login_required
+def follow_view(request):
+    followed_users = Following.objects.filter(follower=request.user).values_list('following', flat=True)
+    users = User.objects.exclude(id__in=followed_users).exclude(id=request.user.id)
+    return render(request, 'project/follow.html', {"users": users})
+
+
+@login_required
+def follow_user(request, user_id):
+    if request.method == "POST":
+        to_follow = User.objects.get(id=user_id)
+        if to_follow != request.user:
+            Following.objects.get_or_create(follower=request.user, following=to_follow)
+    return redirect('follow')

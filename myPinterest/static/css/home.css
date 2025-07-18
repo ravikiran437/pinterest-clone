@@ -50,7 +50,6 @@ body {
   margin-left: 0.5rem;
 }
 
-
 .box {
   height: 27rem;
   width: 14rem;
@@ -86,7 +85,7 @@ body {
   font-size: 1.5rem;
   color: white;
 }
-#user{
+#user {
   height: 100%;
   width: 5%;
   margin: 0;
@@ -150,7 +149,7 @@ body {
 }
 
 /* for create post */
-.create-main{
+.create-main {
   height: 65vh;
   width: 50%;
   box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.4);
@@ -161,16 +160,16 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.create-header{
+.create-header {
   height: 8rem;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.create-pin{
+.create-pin {
   background-color: red;
-  color:white;
+  color: white;
   border-radius: 1rem;
   border: none;
   width: 7rem;
@@ -179,16 +178,16 @@ body {
   padding: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
-.create-pin:hover{
+.create-pin:hover {
   background-color: rgb(130, 24, 24);
 }
-#create-form{
+#create-form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#url{
+#url {
   width: 35rem;
   border-radius: 1.5rem;
   border: 2px solid gainsboro;
@@ -196,10 +195,10 @@ body {
   padding-left: 1rem;
   margin-bottom: 2rem;
 }
-#url:focus{
+#url:focus {
   outline-color: blue;
 }
-.flash-msg{
+.flash-msg {
   height: 6vh;
   width: 50%;
   margin-top: 5rem;
@@ -208,31 +207,71 @@ body {
   justify-content: center;
   align-items: center;
 }
-.flash-msg h5{
-  color:blue;
+.flash-msg h5 {
+  color: blue;
 }
 
+/* for follow  page */
 
+.follow-container {
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+  min-height: 60vh;
+  width: 55vh;
+  margin-top: 6rem;
+  margin-left: 6rem;
+}
+.follow-header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-main {
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-card {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  margin-bottom: 0.5rem;
+}
+.user-icon {
+  border-radius: 50%;
+  background-color: green;
+  height: 80%;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 0.3rem;
+}
+.follow-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-btn {
+  height: 80%;
+  width: 100%;
+  border-radius: 1.2rem;
+  border: none;
+  background-color: rgba(30, 30, 152, 0.777);
+  color: white;
+  justify-self: flex-end;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#follow-form {
+  height: 3rem;
+  width: 8vh;
+}
 
 .custom-alert {
   background-color: #d1e7dd; /* success color by default */
@@ -263,16 +302,17 @@ body {
 
 @media (max-width: 768px) {
   .side {
-    height: 7.5rem;
-    width: 100%;
-    background-color: white;
     position: fixed;
-    bottom: 0;
-    z-index: 999;
-    margin-top: 93.3vh;
+    top: 95.5%;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .pics {
-    margin-top: 0.2rem;
+    margin-top: 4rem;
     margin-left: 0rem;
     grid-template-columns: repeat(2, 1fr);
   }
@@ -282,16 +322,53 @@ body {
   }
   .box {
     height: 25rem;
-    width: 12rem;
+    width: 11.5rem;
   }
   .icons {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 100%;
   }
   #logout {
     display: none;
   }
   .search {
+    margin-left: 0;
+    width: 98%;
+    left: 0;
+  }
+  #user{
+    width: 20%;
+  }
+  .input{
+    margin-left: 0.2rem;
+  }
+  .follow-container{
+    margin-top: 5rem;
+    margin-left: 0;
+    width: 85%;
+    box-shadow: none;
+
+  }
+  .user-card{
+    width: 100%;
+    margin-left: 0.2rem;
+  }
+  .flash-msg{
     display: none;
+  }
+  .create-main{
+    margin: 0 auto;
+    
+    margin-top: 6rem;
+    width: 90%;
+  }
+  #url{
+    width:98%;
+    padding-left: 0.8rem;
+  }
+  #create-form{
+    width: 85%;
   }
 }

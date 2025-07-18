@@ -12,6 +12,8 @@ urlpatterns = [
     path('toggle-save/<int:pin_id>/', views.toggle_save, name='toggle_save'),
     path('like/<int:pin_id>/', views.likes_view, name='like'),
     path('comment/<int:pin_id>/', views.comments_view, name='comments_views'),
-    path('create-post',views.create_view,name="create-post"),
+    path('create-post/',views.create_view,name="create-post"),
     path('download-pin/', views.download_pin, name='download_pin'),
+    path('follow/', views.follow_view, name='follow'),
+    path('follow/<int:user_id>/', views.follow_user, name='follow_user'),
 ]

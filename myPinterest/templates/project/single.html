@@ -11,7 +11,7 @@
     />
     <title>specific Page</title>
 
-    <link rel="stylesheet" href="{% static 'css/specific.css' %}?v=16" />
+    <link rel="stylesheet" href="{% static 'css/specific.css' %}?v=17" />
   </head>
   <body>
     <div class="side">
@@ -20,10 +20,10 @@
         <a href="{% url 'home' %}"
           ><i class="fa-solid fa-house" id="home"></i
         ></a>
-        <i class="fa-solid fa-location-arrow" id="explore"></i>
-        <i class="fa-solid fa-square-plus" id="create"></i>
-        <i class="fa-solid fa-bell" id="bell"></i>
-        <i class="fa-solid fa-message" id="msg"></i>
+        {% comment %} <i class="fa-solid fa-location-arrow" id="explore"></i> {% endcomment %}
+        <a href="{%url 'create-post' %}"><i class="fa-solid fa-square-plus"id="create"></i></a>
+        {% comment %} <i class="fa-solid fa-bell" id="bell"></i> {% endcomment %}
+        <a href="{% url 'follow' %}"><i class="fa-solid fa-user-plus" id="msg"></i></a>
       </div>
     </div>
     <div class="main">

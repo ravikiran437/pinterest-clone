@@ -15,11 +15,11 @@
     <div class="side">
         <div class="icons">
             <div class="logo"></div>
-            <a><i class="fa-solid fa-house" id="home"></i></a>
-            <i class="fa-solid fa-location-arrow"id="explore"></i> 
+            <a href = "{% url 'home' %}"><i class="fa-solid fa-house" id="home"></i></a>
+            {% comment %} <i class="fa-solid fa-location-arrow"id="explore"></i>  {% endcomment %}
             <i class="fa-solid fa-square-plus"id="create"></i>
-            <i class="fa-solid fa-bell"id="bell"></i>
-            <i class="fa-solid fa-message"id="msg"></i>
+            {% comment %} <i class="fa-solid fa-bell"id="bell"></i> {% endcomment %}
+            <a href="{% url 'follow' %}"><i class="fa-solid fa-user-plus" id="msg"></i></a>
         </div>
         
     </div>

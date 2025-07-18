@@ -385,19 +385,19 @@ body {
 
 @media (max-width: 768px) {
   .side {
-    
-    height: 7.5rem;
-    width: 100%;
-    background-color: white;
     position: fixed;
-    bottom: 0;
-    z-index: 999;
-  margin-top: 93.3vh;
+    top: 95.5%;
+    width: 100%;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .main{
     display: flex;
     flex-direction: column;
-    margin-top: 0;
+    margin-top: 5rem;
     margin-left: 0;
     width: 100%;
   }
@@ -410,6 +410,9 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 0;
+    width: 94%;
+
+ 
 
   }
   .right{
@@ -427,23 +430,31 @@ body {
   .specific{
     display: flex;
     align-items: flex-start;
-    width: 100%;
+    width: 48vh;
     margin-left: 0rem;
     min-height: 94vh;
   }
   .pic{
     width: 90%;
     margin-bottom: 0.5rem;
+   
   }
   .icons{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    height: 100%;
   }
-  #logout{
-    display: none;
+  .search {
+    margin-left: 0;
+    width: 98%;
+    left: 0;
   }
-  .search{
-    display: none;
+  #user{
+    width: 20%;
+  }
+  .input{
+    margin-left: 0.2rem;
   }
   .down-box{
     height: 25rem;
