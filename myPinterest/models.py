@@ -30,8 +30,7 @@ class Likes(models.Model):
 
 class Comments(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    pin = models.ForeignKey(
-        Pin, on_delete=models.CASCADE, related_name='comments')
+    pin = models.ForeignKey(Pin, on_delete=models.CASCADE, related_name='comments')
     text = models.TextField()
 
 

@@ -147,6 +147,12 @@ body {
   margin-bottom: 1rem;
   text-decoration: none;
 }
+#search-form{
+  width: 100%;
+}
+.input{
+  width: 100%;
+}
 
 /* for create post */
 .create-main {

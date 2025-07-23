@@ -8,7 +8,7 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from myPinterest.models import Pin, SavedPin,Likes,Comments,Following
-
+from myPinterest.documents import PinDocument
 
 def signin_view(request):
     if request.method == "POST":
@@ -57,11 +57,20 @@ def logout_view(request):
 @login_required(login_url='signin')
 def home_view(request):
     uploader = User.objects.get(email='ravikiran123223@gmail.com')
-    pins = Pin.objects.filter(uploaded_by=uploader).order_by('?')
-    username = request.user.username if request.user.is_authenticated else None
-    first_letter = username[0].upper()
-    return render(request, 'project/home.html', {'pins': pins, 'letter': first_letter})
+    search_query = request.GET.get('q', '')
 
+    if search_query:
+        es_results = PinDocument.search().query(
+            "multi_match", query=search_query, fields=['title', 'category']
+        )
+        pin_ids = [int(hit.meta.id) for hit in es_results]
+        pins = Pin.objects.filter(id__in=pin_ids)
+    else:
+        pins = Pin.objects.filter(uploaded_by=uploader).order_by('?')
+
+    username = request.user.username if request.user.is_authenticated else None
+    first_letter = username[0].upper() if username else ''
+    return render(request, 'project/home.html', {'pins': pins, 'letter': first_letter})
 
 @login_required(login_url='signin')
 def specific_view(request, pin_id):
@@ -71,8 +80,7 @@ def specific_view(request, pin_id):
     username = request.user.username if request.user.is_authenticated else None
     first_letter = username[0].upper()
     saved_pin_ids = list(
-        request.user.savedpin_set.values_list('pin_id', flat=True)
-    )
+        request.user.savedpin_set.values_list('pin_id', flat=True))
     
     likes = Likes.objects.filter(pin=pin).count()
     user_liked = Likes.objects.filter(user=request.user, pin=pin).exists()
@@ -135,6 +143,7 @@ def likes_view(request, pin_id):
         return redirect('specific', pin_id=pin.id)
 
 
+@login_required(login_url='signin')
 def comments_view(request, pin_id):
     pin = get_object_or_404(Pin, id=pin_id)
     if request.method == "POST":
@@ -148,7 +157,10 @@ def comments_view(request, pin_id):
         return redirect('specific', pin_id=pin.id)
 
 
+@login_required(login_url='signin')
 def create_view(request):
+    username = request.user.username if request.user.is_authenticated else None
+    first_letter = username[0].upper()
     if request.method == "POST":
         title = request.POST.get("title")
         image_url = request.POST.get("image_url")
@@ -163,14 +175,16 @@ def create_view(request):
                 return render(request, 'project/createPost.html', {
                     'title': title,
                     'image_url': image_url,
-                    'category': category
+                    'category': category,
+                    'letter' : first_letter
                 })
         except requests.RequestException:
             messages.error(request, "Image URL is not accessible.")
             return render(request, 'project/createPost.html', {
                 'title': title,
                 'image_url': image_url,
-                'category': category
+                'category': category,
+                'letter' : first_letter
             })
         Pin.objects.create(
             title=title,
@@ -181,7 +195,7 @@ def create_view(request):
         messages.success(request, "Pin created successfully!")
         return redirect('create-post')
 
-    return render(request, 'project/createPost.html')
+    return render(request, 'project/createPost.html',{"letter":first_letter})
 
 
 def download_pin(request):
@@ -203,14 +217,16 @@ def download_pin(request):
     return download_response
 
 
-@login_required
+@login_required(login_url='signin')
 def follow_view(request):
     followed_users = Following.objects.filter(follower=request.user).values_list('following', flat=True)
     users = User.objects.exclude(id__in=followed_users).exclude(id=request.user.id)
-    return render(request, 'project/follow.html', {"users": users})
+    username = request.user.username if request.user.is_authenticated else None
+    first_letter = username[0].upper()
+    return render(request, 'project/follow.html', {"users": users,"letter":first_letter})
 
 
-@login_required
+@login_required(login_url='signin')
 def follow_user(request, user_id):
     if request.method == "POST":
         to_follow = User.objects.get(id=user_id)
